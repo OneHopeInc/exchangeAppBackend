@@ -43,15 +43,15 @@ spring:
 
 
           facebook:
-            clientId: 378529902802499
-            clientSecret: b0828820acbfbf006dd1f9f53c0f5683
+            clientId: 348356496091124
+            clientSecret: b59599bb33a27c19f486455bd2d261f0
             redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
             scope:
               - email
               - public_profile
           github:
-            clientId: d3e47fc2ddd966fa4352
-            clientSecret: 3bc0f6b8332f93076354c2a5bada2f5a05aea60d
+            clientId: d8021e9159b56a4584bc
+            clientSecret: e2933f8d66a77e24a0ec7b74388e91ad3255657c
             redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
             scope:
               - user:email
