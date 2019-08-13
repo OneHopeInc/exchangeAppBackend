@@ -1,8 +1,13 @@
 spring:
+  #datasource:
+   # url: jdbc:postgresql://ec2-107-22-211-248.compute-1.amazonaws.com:5432/d1ns507ui16qsk
+   # username: teovdijxhpkrre
+   #password: 1c4edb6ffd18899f0bdba3c684f5e13190b8e894bae33ef5405219647b19f603
+
   datasource:
-    url: jdbc:postgresql://ec2-107-22-211-248.compute-1.amazonaws.com:5432/d1ns507ui16qsk
-    username: teovdijxhpkrre
-    password: 1c4edb6ffd18899f0bdba3c684f5e13190b8e894bae33ef5405219647b19f603
+     url: jdbc:postgresql://ec2-174-129-231-100.compute-1.amazonaws.com:5432/ddka6dimrk6u6j
+     username: aafmkcdmtwvzqg
+     password: 36c8baa448a65f6ed85258497e267d450c1046c1df2908db6a250109aa5b1627
   jpa:
     show-sql: true
     hibernate:
@@ -20,15 +25,26 @@ spring:
       client:
         registration:
           google:
-            clientId: 153187101553-k0dal803g6g4c1k9kord2v23t9l05umt.apps.googleusercontent.com
-            clientSecret: oH2BHIh9CBlsbirU1ZTazH8e
+            #clientId: 153187101553-k0dal803g6g4c1k9kord2v23t9l05umt.apps.googleusercontent.com
+            #clientSecret: oH2BHIh9CBlsbirU1ZTazH8e
+            clientId: 907297146304-bogfjpt5emanf62uaqc66lj2koeo9flo.apps.googleusercontent.com
+            clientSecret: 1MRNxS-A3IzqHdjeLd6SbwvP
             redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
             scope:
               - email
               - profile
+#          facebook:
+#            clientId: 121189305185277
+#            clientSecret: 42ffe5aa7379e8326387e0fe16f34132
+#            redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
+#            scope:
+#              - email
+#              - public_profile
+
+
           facebook:
-            clientId: 121189305185277
-            clientSecret: 42ffe5aa7379e8326387e0fe16f34132
+            clientId: 348356496091124
+            clientSecret: b59599bb33a27c19f486455bd2d261f0
             redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
             scope:
               - email
